@@ -159,7 +159,7 @@ implements   MemberVisitor,
         }
 
         // Get the proper name for the attribute to be added/replaced/deleted.
-        String stackMapAttributeName = microEdition ?
+        /*String stackMapAttributeName = microEdition ?
              ClassConstants.ATTR_StackMap :
              ClassConstants.ATTR_StackMapTable;
 
@@ -234,7 +234,7 @@ implements   MemberVisitor,
                 System.out.println("Preverifier ["+programClass.getName()+"."+programMethod.getName(programClass)+"]:");
                 stackMapAttribute.accept(programClass, programMethod, codeAttribute, new ClassPrinter());
             }
-        }
+        }*/
     }
 
 

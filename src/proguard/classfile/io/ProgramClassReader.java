@@ -840,7 +840,7 @@ implements   ClassVisitor,
             attributeName.equals(ClassConstants.ATTR_Exceptions)                           ? (Attribute)new ExceptionsAttribute():
             attributeName.equals(ClassConstants.ATTR_Code)                                 ? (Attribute)new CodeAttribute():
             attributeName.equals(ClassConstants.ATTR_StackMap)                             ? (Attribute)new StackMapAttribute():
-            attributeName.equals(ClassConstants.ATTR_StackMapTable)                        ? (Attribute)new StackMapTableAttribute():
+            /*attributeName.equals(ClassConstants.ATTR_StackMapTable)                        ? (Attribute)new StackMapTableAttribute():*/
             attributeName.equals(ClassConstants.ATTR_LineNumberTable)                      ? (Attribute)new LineNumberTableAttribute():
             attributeName.equals(ClassConstants.ATTR_LocalVariableTable)                   ? (Attribute)new LocalVariableTableAttribute():
             attributeName.equals(ClassConstants.ATTR_LocalVariableTypeTable)               ? (Attribute)new LocalVariableTypeTableAttribute():
